@@ -4,12 +4,12 @@ import math
 import random
 from importlib import reload
 
-import package.building.user_vars
-import package.building.building_side
-reload(package.building.user_vars)
-reload(package.building.building_side)
-from package.building.user_vars import UserVars
-from package.building.building_side import BuildingSide
+import maya_building_generator.building.user_vars
+import maya_building_generator.building.building_side
+reload(maya_building_generator.building.user_vars)
+reload(maya_building_generator.building.building_side)
+from maya_building_generator.building.user_vars import UserVars
+from maya_building_generator.building.building_side import BuildingSide
 
 
 class BuildingGen():

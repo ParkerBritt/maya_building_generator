@@ -3,9 +3,9 @@ import math
 import random
 from importlib import reload
 
-import package.building.user_vars
-reload(package.building.user_vars)
-from package.building.user_vars import UserVars
+import maya_building_generator.building.user_vars
+reload(maya_building_generator.building.user_vars)
+from maya_building_generator.building.user_vars import UserVars
 
 class BuildingSide():
     def __init__(self, _face, reference_cube_transform, building, user_variables):

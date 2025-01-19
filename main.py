@@ -7,29 +7,29 @@ import random
 from PySide2 import QtWidgets
 
 # import other packages
-import package.stairs
-import package.ball
-import package.scene_data
-import package.camera
-import package.building.window
-import package.building.building_gen
-import package.building.user_vars
+import maya_building_generator.stairs
+import maya_building_generator.ball
+import maya_building_generator.scene_data
+import maya_building_generator.camera
+import maya_building_generator.building.window
+import maya_building_generator.building.building_gen
+import maya_building_generator.building.user_vars
 # reload packages
-reload(package.stairs)
-reload(package.ball)
-reload(package.scene_data)
-reload(package.camera)
-reload(package.building.window)
-reload(package.building.building_gen)
-reload(package.building.user_vars)
+reload(maya_building_generator.stairs)
+reload(maya_building_generator.ball)
+reload(maya_building_generator.scene_data)
+reload(maya_building_generator.camera)
+reload(maya_building_generator.building.window)
+reload(maya_building_generator.building.building_gen)
+reload(maya_building_generator.building.user_vars)
 # reimport after reload
-from package.stairs import Stairs
-from package.ball import Ball
-from package.scene_data import SceneData
-from package.camera import Camera
-from package.building.window import Window
-from package.building.building_gen import BuildingGen
-from package.building.user_vars import UserVars
+from maya_building_generator.stairs import Stairs
+from maya_building_generator.ball import Ball
+from maya_building_generator.scene_data import SceneData
+from maya_building_generator.camera import Camera
+from maya_building_generator.building.window import Window
+from maya_building_generator.building.building_gen import BuildingGen
+from maya_building_generator.building.user_vars import UserVars
 
 from PySide2.QtCore import Qt
 from PySide2.QtWidgets import QMainWindow, QLabel, QProgressBar, QVBoxLayout, QWidget

@@ -1,9 +1,9 @@
 import pymel.core as pm
 
 from importlib import reload
-import package.building.building_gen
-reload(package.building.building_gen)
-from package.building.building_gen import BuildingGen
+import maya_building_generator.building.building_gen
+reload(maya_building_generator.building.building_gen)
+from maya_building_generator.building.building_gen import BuildingGen
 
 def main():
     selection = pm.general.ls(selection=True)
