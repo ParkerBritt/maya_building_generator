@@ -52,11 +52,16 @@ It is ideal for quickly creating buildings from simple geometry.
 
 - Autodesk Maya installed with `pymel` module.
 - Basic knowledge of Python and Maya scripting.
-- Appropriately named primitive geometry to populate the building with.
+- Appropriately named primitive geometry to populate the building with. (check the code for details)
 
 ### Installation
 
-1. Clone the repository to your maya scripts directory.
+1. Clone the repository to your maya scripts directory. On Linux this is at ```~/maya/scripts```
  ```bash
 git clone https://github.com/ParkerBritt/maya_building_generator
 ```
+2. Import the library with
+```python
+import maya_building_generator
+```
+3. Call the desired function
