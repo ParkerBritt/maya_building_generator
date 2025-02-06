@@ -1,4 +1,4 @@
-<h1 align="center">Maya Procedural Building Generator</h1>
+<h1 align="center">Procedural Building Generator for Maya</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
   <img src="https://img.shields.io/badge/Maya-37A5CC?style=for-the-badge&logo=autodeskmaya&logoColor=white">
@@ -11,7 +11,7 @@
 
 ### Overview
 
-**Maya Procedural Building Generator** is a script for generating 3D urban environments in Autodesk Maya.
+**Procedural Building Generator** is a script for generating 3D urban environments in Autodesk Maya.
 The system creates customizable building facades and layouts through procedural methods.
 It is ideal for quickly creating buildings from simple geometry.
 > [!IMPORTANT]  
